@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none">
+  <!-- Ethiopian Airlines Tricolor Wings Emblem -->
+  <g transform="translate(12, 10)">
+    <!-- Green Wing Curve -->
+    <path d="M0 36 C10 18, 28 4, 46 2 C40 12, 34 26, 32 38 Z" fill="#00843D"/>
+    <!-- Yellow / Gold Stripe -->
+    <path d="M10 38 C20 22, 36 10, 52 8 C47 18, 42 30, 40 40 Z" fill="#FFC72C"/>
+    <!-- Red Forward Feather -->
+    <path d="M22 40 C32 26, 46 16, 60 14 C54 24, 49 34, 48 42 Z" fill="#DA291C"/>
+    <!-- Dynamic flight accent -->
+    <circle cx="48" cy="12" r="2.5" fill="#00843D"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="84" y="32" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="20" font-weight="800" fill="#006B3F" letter-spacing="-0.5">Ethiopian</text>
+  <text x="84" y="46" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#B88E3E" letter-spacing="2">THE NEW SPIRIT OF AFRICA</text>
+  <text x="188" y="32" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="600" fill="#DA291C">የኢትዮጵያ</text>
+</svg>

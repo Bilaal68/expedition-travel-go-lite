@@ -1,0 +1,77 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production & Build outputs
+dist/
+dist-ssr/
+build/
+.vite/
+.cache/
+
+# Environment Variables & Secrets (CRITICAL: Never commit secrets to git)
+.env
+.env.*
+*.env
+*.env.*
+*.local
+!.env.example
+
+# Certificates, Keys & Credentials
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+*.token
+credentials.json
+*serviceAccount*.json
+*firebase-adminsdk*.json
+
+# Package manager credentials
+.npmrc
+.yarnrc
+
+# Supabase CLI local state & secrets
+.supabase/
+supabase/.temp/
+supabase/.branches/
+
+# Debug and Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor and IDE configurations
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary & Backup files
+*.bak
+*.backup
+*.tmp
+*.temp
+*~

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#1F3D28" />
+  <!-- Minimalist Mountain Peak & Purple Spark -->
+  <path d="M12 50 L32 14 L52 50 Z" fill="#E8DCC4" />
+  <path d="M32 14 L52 50 L32 45 Z" fill="#D3C5A5" />
+  <path d="M22 50 L32 30 L42 50 Z" fill="#1F3D28" />
+  <polygon points="32,8 36,16 32,14 28,16" fill="#8B5CF6" />
+  <line x1="8" y1="52" x2="56" y2="52" stroke="#E8DCC4" stroke-width="2" stroke-linecap="round" stroke-opacity="0.5" />
+</svg>

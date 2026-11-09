@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: light;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #F8F6F0;
+    color: #1F3D28;
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: rgba(139, 92, 246, 0.25);
+    color: #1F3D28;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F6F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8DCC4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1F3D28;
+}
+
+/* Editorial Vignette & Glass effects */
+.cinematic-vignette {
+  background: radial-gradient(circle at 50% 50%, rgba(31, 61, 40, 0.2) 0%, rgba(13, 27, 18, 0.92) 100%);
+}
+
+.cinematic-gradient-left {
+  background: linear-gradient(90deg, rgba(13, 27, 18, 0.96) 0%, rgba(21, 43, 28, 0.85) 45%, rgba(31, 61, 40, 0.35) 75%, transparent 100%);
+}
+
+.cinematic-gradient-bottom {
+  background: linear-gradient(180deg, transparent 0%, rgba(13, 27, 18, 0.6) 60%, rgba(13, 27, 18, 0.98) 100%);
+}
+
+/* Card hover physics */
+.card-hover-effect {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+  will-change: transform, box-shadow;
+}
+
+.card-hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 24px 48px -12px rgba(31, 61, 40, 0.16);
+}
+
+/* Image zoom hover effect */
+.img-zoom-container {
+  overflow: hidden;
+}
+
+.img-zoom-target {
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+.group:hover .img-zoom-target {
+  transform: scale(1.06);
+}
+
+/* Interactive button press & lift */
+.btn-interactive {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.2s ease, border-color 0.2s ease;
+  will-change: transform;
+}
+
+.btn-interactive:hover:not(:disabled) {
+  transform: translateY(-1.5px);
+}
+
+.btn-interactive:active:not(:disabled) {
+  transform: translateY(0.5px) scale(0.985);
+}
+
+/* Subtle Hero Floating Animation */
+@keyframes floatSubtle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-float-subtle {
+  animation: floatSubtle 6s ease-in-out infinite;
+}
+
+/* Continuous Slow Rotation / Marquee Animation */
+@keyframes marqueeSlow {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-marquee-slow {
+  display: flex;
+  width: max-content;
+  animation: marqueeSlow 60s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-slow:hover {
+  animation-play-state: paused;
+}
+
+/* Accessibility: Respect prefers-reduced-motion setting */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal-item {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .card-hover-effect:hover,
+  .btn-interactive:hover,
+  .btn-interactive:active,
+  .group:hover .img-zoom-target {
+    transform: none !important;
+  }
+
+  .animate-marquee-slow {
+    animation: none !important;
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" fill="none">
+  <!-- Royal Blue Horus Sun Deity Emblem -->
+  <g transform="translate(12, 10)">
+    <circle cx="22" cy="22" r="21" fill="#0A2C68"/>
+    <!-- Stylized Winged Horus Falcon Head -->
+    <path d="M12 28 C16 20, 24 14, 34 14 C30 18, 26 24, 24 30 Z" fill="#FFFFFF"/>
+    <path d="M18 32 C22 26, 28 20, 34 18 C31 22, 28 27, 27 32 Z" fill="#D5A64A"/>
+    <circle cx="26" cy="19" r="2" fill="#D5A64A"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="66" y="37" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="19" font-weight="900" fill="#0A2C68" letter-spacing="0.5">EGYPTAIR</text>
+</svg>

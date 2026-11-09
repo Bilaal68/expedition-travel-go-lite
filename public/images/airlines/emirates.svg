@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" fill="none">
+  <!-- Emirates Red Badge -->
+  <rect x="10" y="8" width="180" height="48" rx="8" fill="#D71921"/>
+  <!-- Arabic Stylized Header -->
+  <text x="100" y="26" font-family="'Amiri', 'Georgia', serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">الإمـارات</text>
+  <!-- Latin Wordmark -->
+  <text x="100" y="44" font-family="'Plus Jakarta Sans', 'Georgia', serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">Emirates</text>
+</svg>

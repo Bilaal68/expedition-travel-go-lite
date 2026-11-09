@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 64" fill="none">
+  <!-- Deep Blue Crane Circle -->
+  <g transform="translate(14, 10)">
+    <circle cx="22" cy="22" r="21" fill="#051039"/>
+    <!-- Crane in Flight -->
+    <path d="M12 28 C16 26, 24 16, 33 13 C28 17, 24 24, 20 28 L30 17 L24 30 L16 31 Z" fill="#FFB612"/>
+    <circle cx="29" cy="14" r="1.8" fill="#FFB612"/>
+  </g>
+  <!-- Lufthansa Sans Wordmark -->
+  <text x="68" y="38" font-family="'Plus Jakarta Sans', 'Helvetica Neue', sans-serif" font-size="20" font-weight="700" fill="#051039" letter-spacing="-0.2">Lufthansa</text>
+</svg>

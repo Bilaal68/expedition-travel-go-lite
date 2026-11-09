@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" fill="none">
+  <!-- Dynamic SAA Tailfin Arrow with Rainbow Colors -->
+  <g transform="translate(10, 14)">
+    <polygon points="0,34 16,4 28,4 12,34" fill="#002366"/>
+    <polygon points="12,34 26,8 36,8 22,34" fill="#DE3831"/>
+    <polygon points="22,34 34,12 42,12 30,34" fill="#FFB81C"/>
+    <polygon points="30,34 40,16 48,16 38,34" fill="#007A3D"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="66" y="29" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="800" fill="#002366" letter-spacing="0.5">SOUTH AFRICAN</text>
+  <text x="66" y="44" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="700" fill="#DE3831" letter-spacing="2">AIRWAYS</text>
+</svg>
